@@ -89,7 +89,7 @@ h2 {
 /* Área de navegação */
 .navigation-area {
   background-color: #e7e7e7;
-  background-image: url(./assets/img1.png);
+  background-image: url(/assets/img1.png);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
