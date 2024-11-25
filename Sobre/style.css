@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-1 {
+  background-image: url(../assets/imagem-de-fundo-sobre.png);
+  background-size: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+header {
+  width: 90vw;
+  margin: auto;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  justify-content: end;
+}
+nav.main-navigation {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.navigation-links {
+  display: flex;
+  gap: 35px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+div.navigation-links a {
+  color: #fff;
+  text-decoration: none;
+}
+div.navigation-links a:hover {
+  text-decoration: underline;
+}
+
+.introduction {
+  width: 700px;
+  height: 248px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 60px;
+  padding: 10px;
+}
+
+.introduction h1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+}
+.introduction p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  width: 550px;
+  padding: 7px;
+}
+
+button {
+  width: 160px;
+  height: 68px;
+  border-radius: 35px;
+  background: #fff;
+  border: 1px solid #111;
+}
+
+button a {
+  color: #001e54;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17 px;
+  text-decoration: none;
+}
+
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+.about-us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin: 50px;
+}
+.about-content h2 {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.about-content p {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 7px;
+}
